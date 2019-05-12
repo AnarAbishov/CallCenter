@@ -1,0 +1,117 @@
+/* login page */
+
+.login-page{
+    width: 500px;
+    height: 250px;
+    background: grey;
+    margin: 150px auto;
+    padding: 50px 0px;
+}
+.input_email{
+    display: block;
+    width: 250px; 
+    margin: 30px auto;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.btn_login{
+    padding: 10px 40px;
+    border: none;
+    color: aliceblue;
+    display: block;
+    background: aqua;
+    margin: 20px auto;
+}
+
+
+/* main page */
+.wrapper{
+    width: 70%;
+    height: 450px;
+    margin: 0px auto;
+    background: black;
+    border-radius: 20px;
+    /* overflow: hidden;   */
+    overflow-y: scroll
+}
+.header{ 
+    height: 80px;
+    background: rgb(13, 27, 27);
+    color: white;
+    line-height: 40px;
+    padding: 0px 20px;
+    z-index: -5;
+    font-family: verdana;
+}
+.header h3{
+    display: inline-block;
+}
+.logined_user{
+    float: right;
+}
+
+.bottom{ 
+    margin: 20px auto;
+    height: 50px;
+    width: 70%;
+    background: black;
+    z-index: 55;
+    line-height: 48px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.bottom input{
+    width: 77%;
+    height: 93%;
+    padding: 0px 20px;
+    border:none;
+    outline: none;
+    background: black;
+    color: white;
+}
+
+.bottom button{ 
+    float: right;
+    width: 150px;
+    height: 100%;
+    border: none;
+    font-size: 1em;
+    color: white;
+    background: blueviolet;
+}
+
+.message{
+    border-bottom: 2px solid white;
+    padding: 0px 20px;
+    margin:  20px;
+}
+.message img{
+    width: 100px;
+    display: inline-block;
+    margin: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.message p{
+    color: white;
+    display: inline-block;
+}
+
+.boyImage{
+    float: right;
+}
+
+.selected{
+    opacity: 0.5;
+}
+
+.delete{
+    float: right;
+    margin: 29px;
+    font-size: 1.5em;
+    color: brown;
+    display: none;
+    cursor: pointer;
+}
+ 
